@@ -4,9 +4,9 @@ Japan
 
 ### Group Members
 
-- Ty Streets
-- {Member 2 Name}
-- {Member 3 Name}
+- Jay Dawson II
+- William Kosso
+
 
 ### Web App Link
 
