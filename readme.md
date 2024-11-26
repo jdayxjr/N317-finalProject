@@ -1,6 +1,6 @@
 ### Group Title
 
-Crab Walking Gurus
+Japan
 
 ### Group Members
 
