@@ -33,7 +33,7 @@ This section will break down the pages and components of the web app, specifying
 2. **User Profile Page**
 
    - Description: Where users can view and edit their profile information.
-   - Responsible: {Team Member Name}
+   - Responsible: {William}
 
 3. **Contact Page**
 
@@ -41,7 +41,7 @@ This section will break down the pages and components of the web app, specifying
    - Responsible: {Team Member Name}
 
 4. **{Additional Pages}**
-   - {Repeat this pattern for other pages of the app}
+   - {William,Jay}
 
 ### Sources Cited
 
