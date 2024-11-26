@@ -14,12 +14,12 @@ https://vercel.com/william-kossos-projects/n317-finalproject
 
 ### Category & Topic
 
-- **Category:** Physical Activity / Sport
-- **Topic:** Crab Walking
+- **Category:** Japan / Tokyo
+- **Topic:** Culture
 
 ### Project Summary
 
-This web app will outline the benefits and techniques of crab walking. [Additional text about crab walking]
+This web app will explore the rich culture of Tokyo, highlighting its traditional and modern influences, iconic landmarks, and unique lifestyle practices.
 
 ### Web App Structure and Responsibilities
 
