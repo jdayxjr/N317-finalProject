@@ -6,7 +6,7 @@ export default function Nav() {
     <nav>
       <ul className={navStyles.mainNav}>
         <li>
-          <Link href="/page.js">Home</Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
           <Link href="/UserProfile">User</Link>
