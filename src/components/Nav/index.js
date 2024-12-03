@@ -1,8 +1,6 @@
 import Link from "next/link";
 import navStyles from "./nav.module.css";
-import { SignIn } from "@clerk/nextjs";
-import { SignOutButton } from "@clerk/nextjs";
-import { UserButton } from "@clerk/nextjs";
+
 export default function Nav() {
   return (
     <nav>
@@ -19,7 +17,7 @@ export default function Nav() {
         <li>
           <Link href="../sign-in">Login</Link>
         </li>
-        <li><UserButton></UserButton></li>
+
       </ul>
     </nav>
   );
