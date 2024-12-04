@@ -32,12 +32,12 @@ This section will break down the pages and components of the web app, specifying
 2. **User Profile Page**
 
    - Description: Where users can view and edit their profile information.
-   - Responsible: {William}
+   - Responsible: {Jay}
 
 3. **Contact Page**
 
    - Description: Where users can send contact messages to the site admins.
-   - Responsible: {Jay}
+   - Responsible: {William}
 
 4. **{Additional Pages}**
    - {William,Jay}
