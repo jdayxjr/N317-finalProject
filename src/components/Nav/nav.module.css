@@ -1,17 +1,29 @@
 .mainNav {
-    height: 60px;
-    background-color: #c391ec;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .mainNav li {
-    list-style: none;
-  }
-  
-  .mainNav li a {
-    text-decoration: none;
-    color: black;
-    font-size: 32px;
-  }
+  height: 60px;
+  background-color: white; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid red; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.mainNav li {
+  list-style: none;
+}
+
+.mainNav li a {
+  text-decoration: none;
+  color: red; 
+  font-size: 20px; 
+  font-weight: bold; 
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.mainNav li a:hover {
+  color: white; 
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 5px; 
+  transform: scale(1.1);
+}
