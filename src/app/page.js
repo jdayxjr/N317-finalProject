@@ -1,7 +1,11 @@
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  const [showMore, setShowMore] = useState(false);
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -63,7 +67,7 @@ export default function Home() {
       <section className={styles.section}>
         <h2 className={styles.blackText}>Cultural Highlights</h2>
         <p>
-          Experience Japan unique culture through traditional tea ceremonies,
+          Experience Japans unique culture through traditional tea ceremonies,
           sumo wrestling, cherry blossom festivals, and much more.
         </p>
         <Image
@@ -73,6 +77,28 @@ export default function Home() {
           height={400}
           className={styles.image}
         />
+      </section>
+
+   
+      <section className={styles.section}>
+        <button
+          className={styles.toggleButton}
+          onClick={() => setShowMore(!showMore)}
+        >
+          {showMore ? "Show Less" : "Show More"}
+        </button>
+
+        {showMore && (
+          <div className={styles.additionalInfo}>
+            <h3 className={styles.redText}>Did You Know?</h3>
+            <p>
+              Japan has the worlds third-largest economy and is known for its
+              cutting-edge technology, anime, and robotics. The Shinkansen, or
+              bullet train, symbolizes its innovation, traveling at speeds up
+              to 320 km/h!
+            </p>
+          </div>
+        )}
       </section>
     </div>
   );
