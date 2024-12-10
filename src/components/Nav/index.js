@@ -1,7 +1,7 @@
 import Link from "next/link";
 import navStyles from "./nav.module.css";
 import Image from "next/image";
-
+import { SignOutButton } from "@clerk/nextjs";
 export default function Nav() {
   return (
     <nav>
@@ -22,7 +22,7 @@ export default function Nav() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/UserProfile">User</Link>
+          <Link href="/user-profile">User</Link>
         </li>
         <li>
           <Link href="/Contact">Contact</Link>
@@ -30,6 +30,7 @@ export default function Nav() {
         <li>
           <Link href="../sign-in">Login</Link>
         </li>
+        <li><SignOutButton className={navStyles.SignOutButton} /></li>
       </ul>
     </nav>
   );

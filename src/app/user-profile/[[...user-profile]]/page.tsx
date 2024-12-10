@@ -6,5 +6,7 @@ const UserProfilePage = () => (
   <UserProfile path="/user-profile" />
 );
 
+
+
 export default UserProfilePage;
     
