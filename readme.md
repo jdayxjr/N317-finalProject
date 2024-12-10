@@ -27,7 +27,7 @@ This section will break down the pages and components of the web app, specifying
 1. **Home Page**
 
    - Description: The main landing page of the application.
-   - Responsible: {Jay}
+   - Responsible: {William}
 
 2. **User Profile Page**
 
