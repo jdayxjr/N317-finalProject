@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   const [showMore, setShowMore] = useState(false);
@@ -41,7 +42,7 @@ export default function Home() {
       <section className={styles.section}>
         <h2 className={styles.whiteText}>Famous Destinations</h2>
         <div className={styles.content}>
-          <div>
+          <div className={styles.destination}>
             <Image
               src="/tokyo.jpg"
               alt="Tokyo Cityscape"
@@ -50,8 +51,11 @@ export default function Home() {
               className={styles.image}
             />
             <p>Explore the vibrant streets of Tokyo.</p>
+            <button className={styles.linkButton}>
+              <Link href="/tokyo">Learn More</Link>
+            </button>
           </div>
-          <div>
+          <div className={styles.destination}>
             <Image
               src="/kyoto.jpg"
               alt="Kyoto Temples"
@@ -60,6 +64,9 @@ export default function Home() {
               className={styles.image}
             />
             <p>Visit the serene temples of Kyoto.</p>
+            <button className={styles.linkButton}>
+              <Link href="/kyoto">Learn More</Link>
+            </button>
           </div>
         </div>
       </section>
@@ -79,7 +86,6 @@ export default function Home() {
         />
       </section>
 
-   
       <section className={styles.section}>
         <button
           className={styles.toggleButton}
