@@ -32,9 +32,6 @@ export default function Tokyo() {
                 <img className={styles.image} src="/placeholder3.jpg" alt="Neon streets of Tokyo" />
             </section>
 
-            <footer className={styles.footer}>
-                <p className={styles.footerText}>© 2024 Explore Tokyo</p>
-            </footer>
         </div>
     );
 }
